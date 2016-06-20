@@ -102,7 +102,7 @@ L'expression "dérouler les tests" désigne le fait de lancer ou d'exécuter tou
 
 Les tests contribuent à garantir la <b>qualité</b> du code produit.
 
-<img src="https://github.com/lesagilitateurs/Scrum/blob/master/tdd.png"Test-driven developpement" height="200">
+<img src="https://github.com/lesagilitateurs/Scrum/blob/master/tdd.png" height="200">
 
 
 ### Code review (revue de code)
@@ -130,7 +130,6 @@ Les bénéfices attendus sont les suivants:
 - Une meilleure capacité à rester concentrer et résister aux interruptions: lorsqu'un des deux membres du binôme doit s'interrompre, l'autre peut rester focalisé sur la tâche et aider son collègue à se reconcentrer ensuite.
 - Implique une revue de code directe et limite donc les risques de bug
 
-<img src="https://github.com/lesagilitateurs/Scrum/blob/master/pair-programming.jpg title="Pair Programming" height="200">
-
+<img src="https://github.com/lesagilitateurs/Scrum/blob/master/pair-programming.jpg" height="200">
 
 
