@@ -82,4 +82,4 @@ L’objectif de cette pratique est de provoquer la discution entre les membres d
 
 Ce qu’on recherche c’est un consensus car c’est l’équipe et non pas un individu qui s’engage sur cette estimation.
 
-![alt tag](https://drive.google.com/open?id=0B08Stcy7I35rSm1aRTlSa2dlRVk)
+![alt text](https://github.com/lesagilitateurs/Scrum/blob/master/planning-poker-deck.jpg "planning poker deck")
