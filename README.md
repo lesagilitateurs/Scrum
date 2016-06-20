@@ -71,3 +71,13 @@ Nous reconnaissons la valeur des seconds éléments, mais privilégions les prem
 
 ##Les outils pour l'Agilité
 ###Planning poker
+
+Une pratique ludique d'estimation utilisée par les équipes Scrum.
+
+Autour de la table, chacun dispose d'un jeu de cartes représentant des valeurs typiques pour l'estimation en points d'une user story. Le Product Owner présente rapidement l'objectif d'une story. Chacun choisit ensuite une estimation, en silence, et prépare la carte correspondante face cachée. Lorsque tout le monde est prêt, on retourne les cartes simultanément et on donne lecture des estimations. 
+
+S'il y a concensus sur l’estimation exemple (3, 3, 3, 5), on garde le score partagé (3). Par contre s’il existe un delta entre les scores (1,1,2,5) ou encore (3,5,5,13), les membres de l'équipe ayant donné l’estimation la plus basse et la plus haute sont invités à expliquer leur raisonnement; après une brève discussion, on cherche à émettre une estimation faisant consensus, éventuellement en répétant le jeu.
+
+L’objectif de cette pratique est de provoquer la discution entre les membres de l’équipe de réalisation. Il n’y a pas de note juste et la simultanéité de la découverte des cartes est essentielle pour que les plus juniors ne soient pas influencés par les seniors. Elle permet également de voir si une story est complètement incomprise (?), ou insignifiante (0) ou inestimable en l’état (40,100) pas assez affinée.
+
+Ce qu’on recherche c’est un consensus car c’est l’équipe et non pas un individu qui s’engage sur cette estimation.
