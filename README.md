@@ -68,3 +68,6 @@ Nous reconnaissons la valeur des seconds éléments, mais privilégions les prem
 
 12.	À intervalles réguliers, l'équipe réfléchit aux moyens de devenir plus efficace, puis règle et modifie son comportement en conséquence.
 
+
+##Les outils pour l'Agilité
+###Planning poker
