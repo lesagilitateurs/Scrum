@@ -80,6 +80,57 @@ S'il y a concensus sur l’estimation exemple (3, 3, 3, 5), on garde le score pa
 
 L’objectif de cette pratique est de provoquer la discution entre les membres de l’équipe de réalisation. Il n’y a pas de note juste et la simultanéité de la découverte des cartes est essentielle pour que les plus juniors ne soient pas influencés par les seniors. Elle permet également de voir si une story est complètement incomprise (?), ou insignifiante (0) ou inestimable en l’état (40,100) pas assez affinée.
 
-Ce qu’on recherche c’est un consensus car c’est l’équipe et non pas un individu qui s’engage sur cette estimation.
+Ce qu’on recherche c’est un <b>consensus</b> car c’est l’équipe et non pas un individu qui s’engage sur cette estimation.
 
-![alt text](https://github.com/lesagilitateurs/Scrum/blob/master/planning-poker-deck.jpg "planning poker deck")
+<img src="https://github.com/lesagilitateurs/Scrum/blob/master/planning-poker-deck.jpg" height="200">
+
+
+### TDD (Test-driven developpement)
+Le terme TDD ou (développement piloté par les tests) désigne une technique de développement qui entremêle l'écriture de tests unitaires, la programmation et l'activité de remaniement. 
+Elle propose les règles suivantes: 
+- créer un seul test unitaire décrivant un aspect du programme 
+- s'assurer, en l'exécutant, que ce test échoue pour les bonnes raisons 
+- écrire juste assez de code, le plus simple possible, pour que ce test passe 
+- remanier le code autant que nécessaire pour se conformer aux critères de simplicité 
+- recommencer, en accumulant les tests au fur et à mesure 
+
+La pratique est indissociable de la famille d'outils de tests xUnit, à qui elle doit son vocabulaire: 
+- "barre verte" signifie que l'ensemble des tests unitaires accumulés passent avec succès.
+- "barre rouge" signifie qu'au moins un test est en échec. (L'échec d'un unique test suffit à déclencher l'affichage rouge, avec sa connotation d'alerte: cette tolérance zéro reflète la philosophie de l'outil et de la pratique.) 
+
+L'expression "dérouler les tests" désigne le fait de lancer ou d'exécuter tous les tests accumulés ("suite" ou "batterie" de tests). 
+
+Les tests contribuent à garantir la <b>qualité</b> du code produit.
+
+<img src="https://github.com/lesagilitateurs/Scrum/blob/master/tdd.png"Test-driven developpement" height="200">
+
+
+### Code review (revue de code)
+Pour fournir un logiciel de qualité, il est nécessaire de produire un code source de qualité. La revue de code permet d’identifier des bugs avant de les rencontrer au moyen d’une relecture du code source par un développeur expérimenté.
+La mise en place d’une revue de code systématique pendant la phase de développement et de correction, les développeurs se responsabilisent encore plus, car ils savent que leur travail sera automatiquement évalué. Ce système permet d’améliorer la qualité du code source écrit. De plus, le relecteur pourra identifier des bugs ou des axes d’amélioration.
+
+Il existe Trois processus de revue de code:
+- Revue de code bloquante : tout développement doit être relu avant d’être commité dans le référentiel du code source. Ce mode est un frein au développement car certains développement peuvent se retrouver en attente d’une relecture de développement dont ils dépendent.
+- Revue de code non-bloquante : tout code source commité dans le référentiel du source source doit être relu. Cette méthode permet au développeur de continuer son travail sans attendre la relecture. De même, le relecteur n’est pas obligé de se précipiter pour relire le code.
+- Revue de code avec le développement par binôme : c’est une conséquence de l’eXtreme Programming. Cependant le travail en binôme influence le jugement du relecteur direct.
+
+
+### Pair programming (Programmation en binôme ou binômage)
+
+Deux programmeurs partagent un seul poste de travail (écran, clavier, souris), se répartissant les rôles entre un "conducteur" (aux commandes) et un "copilote" (surveillant l'écran et intervenant en cas de besoin), intervertissant les rôles fréquemment. 
+
+L'un des principaux écueils à la pratique du binômage est la passivité. Lorsqu'on l'utilise conjointement avec le développement par les tests, une variante appelée "ping pong programming" favorise l'échange de rôles: l'un des deux programmeurs écrit un test unitaire qui échoue, puis passe le clavier à son collègue qui cherche alors à faire passer ce test, et peut alors à son tour écrire un test. Cette variante peut être utilisée soit pour des raisons pédagogiques, soit dans un esprit plus ludique par des programmeurs déjà confirmés.
+
+Les bénéfices attendus sont les suivants:
+- Une plus grande qualité des développements; "programmer à haute voix" conduit à mieux appréhender les complexités et les détails pernicieux, limitant ainsi le risque d'erreurs ou de se fourvoyer.
+- Une meilleure diffusion des connaissances dans l'équipe, notamment lorsqu'un développeur peu familier d'un module travaille avec un autre qui le connaît mieux. 
+- Une amélioration plus rapide des compétences des développeurs juniors, au contact des seniors.
+- Une meilleure lisibilité du code.
+- Une réduction de l'effort de coordination, puisqu'au lieu de N développeurs on est amené à coordonner N/2 binômes 
+- Une meilleure capacité à rester concentrer et résister aux interruptions: lorsqu'un des deux membres du binôme doit s'interrompre, l'autre peut rester focalisé sur la tâche et aider son collègue à se reconcentrer ensuite.
+- Implique une revue de code directe et limite donc les risques de bug
+
+<img src="https://github.com/lesagilitateurs/Scrum/blob/master/pair-programming.jpg title="Pair Programming" height="200">
+
+
+
