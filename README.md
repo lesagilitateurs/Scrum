@@ -81,3 +81,5 @@ S'il y a concensus sur l’estimation exemple (3, 3, 3, 5), on garde le score pa
 L’objectif de cette pratique est de provoquer la discution entre les membres de l’équipe de réalisation. Il n’y a pas de note juste et la simultanéité de la découverte des cartes est essentielle pour que les plus juniors ne soient pas influencés par les seniors. Elle permet également de voir si une story est complètement incomprise (?), ou insignifiante (0) ou inestimable en l’état (40,100) pas assez affinée.
 
 Ce qu’on recherche c’est un consensus car c’est l’équipe et non pas un individu qui s’engage sur cette estimation.
+
+![alt tag](https://drive.google.com/open?id=0B08Stcy7I35rSm1aRTlSa2dlRVk)
